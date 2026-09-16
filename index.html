@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Satellite Gold Car | Location de voitures à Mohammedia</title>
+<meta name="description" content="Satellite Gold Car – Location de voitures à Mohammedia. Découvrez nos véhicules et réservez facilement via WhatsApp.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Satellite Gold Car | Location de voitures à Mohammedia">
+<meta property="og:description" content="Découvrez notre sélection de véhicules et réservez en quelques clics via WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =========================================================
+     1. NAVBAR
+========================================================= -->
+<header class="navbar" id="navbar">
+  <div class="container navbar__inner">
+    <a href="#accueil" class="navbar__brand" aria-label="Satellite Gold Car - Accueil">
+      <span class="navbar__brand-mark">SGC</span>
+      <span class="navbar__brand-text">
+        <strong>Satellite Gold Car</strong>
+        <em>Mohammedia</em>
+      </span>
+    </a>
+
+    <nav class="navbar__nav" id="navbarNav" aria-label="Navigation principale">
+      <a href="#accueil" class="navlink">Accueil</a>
+      <a href="#voitures" class="navlink">Nos voitures</a>
+      <a href="#pourquoi" class="navlink">Pourquoi nous</a>
+      <a href="#localisation" class="navlink">Localisation</a>
+      <a href="#contact" class="navlink">Contact</a>
+    </nav>
+
+    <div class="navbar__actions">
+      <a href="tel:+212634047344" class="navbar__phone" aria-label="Appeler le +212 634 047 344">
+        <i class="fa-solid fa-phone"></i>
+        <span>+212 634 047 344</span>
+      </a>
+      <a href="#" id="navWhatsapp" class="btn btn--gold btn--sm" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> Réserver
+      </a>
+      <button class="navbar__burger" id="burgerBtn" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navbarNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="accueil">
+
+  <!-- =========================================================
+       2. HERO
+  ========================================================= -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="hero__badge">Location de voitures — Mohammedia</p>
+        <h1 class="hero__title">
+          Votre route,<br>notre <span class="hero__title-accent">priorité</span>.
+        </h1>
+        <p class="hero__text">
+          Découvrez une sélection de véhicules fiables, propres et confortables
+          pour vos déplacements à Mohammedia et ses environs.
+        </p>
+        <div class="hero__actions">
+          <a href="#" id="heroWhatsapp" class="btn btn--gold btn--lg" target="_blank" rel="noopener">
+            <i class="fa-brands fa-whatsapp"></i> Réserver sur WhatsApp
+          </a>
+          <a href="#voitures" class="btn btn--outline btn--lg">
+            Voir nos voitures
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__frame">
+          <!-- Replace this image at: images/cars/hero-car.jpg -->
+          <img src="images/cars/hero-car.jpg" alt="Véhicule Satellite Gold Car" class="hero__img" id="heroImg" onerror="handleImageError(this)">
+          <div class="hero__frame-glow" aria-hidden="true"></div>
+        </div>
+        <div class="hero__stat-card">
+          <span class="hero__stat-number">7</span>
+          <span class="hero__stat-label">véhicules disponibles</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       3. QUICK CONTACT / TRUST BAR
+  ========================================================= -->
+  <section class="trustbar" aria-label="Informations rapides">
+    <div class="container trustbar__inner">
+      <div class="trustbar__item">
+        <i class="fa-solid fa-location-dot"></i>
+        <div>
+          <strong>Mohammedia</strong>
+          <span>Hay Al Wafa</span>
+        </div>
+      </div>
+      <div class="trustbar__item">
+        <i class="fa-solid fa-phone"></i>
+        <div>
+          <strong>Contact</strong>
+          <span>+212 634 047 344</span>
+        </div>
+      </div>
+      <div class="trustbar__item">
+        <i class="fa-brands fa-whatsapp"></i>
+        <div>
+          <strong>WhatsApp</strong>
+          <span>Réservation rapide</span>
+        </div>
+      </div>
+      <div class="trustbar__item">
+        <i class="fa-solid fa-car"></i>
+        <div>
+          <strong>Véhicules</strong>
+          <span>Propres &amp; entretenus</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       4. OUR VEHICLES
+  ========================================================= -->
+  <section class="section" id="voitures">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Nos voitures</h2>
+        <p class="section__subtitle">Choisissez le véhicule qui correspond à vos besoins.</p>
+      </div>
+
+      <!-- Category filter, built from the cars array in script.js -->
+      <div class="filters" id="filters"></div>
+
+      <!-- Vehicle cards are injected here by script.js -->
+      <div class="cars-grid" id="carsGrid" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       5. WHY CHOOSE US
+  ========================================================= -->
+  <section class="section section--dark" id="pourquoi">
+    <div class="container">
+      <div class="section__head section__head--light">
+        <h2 class="section__title">Pourquoi choisir Satellite Gold Car ?</h2>
+      </div>
+
+      <div class="benefits">
+        <div class="benefit">
+          <span class="benefit__num">01</span>
+          <h3>Véhicules propres</h3>
+          <p>Des véhicules régulièrement entretenus et préparés avant chaque location.</p>
+        </div>
+        <div class="benefit">
+          <span class="benefit__num">02</span>
+          <h3>Réservation rapide</h3>
+          <p>Réservez facilement directement via WhatsApp.</p>
+        </div>
+        <div class="benefit">
+          <span class="benefit__num">03</span>
+          <h3>Tarifs transparents</h3>
+          <p>Des tarifs simples et clairs, adaptés à vos besoins.</p>
+        </div>
+        <div class="benefit">
+          <span class="benefit__num">04</span>
+          <h3>Service de proximité</h3>
+          <p>Nous sommes à Mohammedia pour vous accompagner avant et pendant votre location.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       6. HOW IT WORKS
+  ========================================================= -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Comment ça marche</h2>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <span class="step__num">01</span>
+          <h3>Choisissez votre voiture</h3>
+          <p>Parcourez notre catalogue et trouvez le véhicule adapté à votre trajet.</p>
+        </div>
+        <div class="step__connector" aria-hidden="true"></div>
+        <div class="step">
+          <span class="step__num">02</span>
+          <h3>Contactez-nous sur WhatsApp</h3>
+          <p>Un message suffit pour connaître les disponibilités et les conditions.</p>
+        </div>
+        <div class="step__connector" aria-hidden="true"></div>
+        <div class="step">
+          <span class="step__num">03</span>
+          <h3>Confirmez votre réservation</h3>
+          <p>Nous validons ensemble les détails et votre voiture vous attend.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       7. LOCATION
+  ========================================================= -->
+  <section class="section section--soft" id="localisation">
+    <div class="container location">
+      <div class="location__info">
+        <h2 class="section__title">Nous sommes à Mohammedia</h2>
+        <address class="location__address">
+          Hay Al Wafa 155<br>
+          IMM Oumkaltouma Nº2 EL<br>
+          Mohammedia 28810, Maroc
+        </address>
+        <div class="location__actions">
+          <a href="#" id="mapsBtn" class="btn btn--dark" target="_blank" rel="noopener">
+            <i class="fa-solid fa-map-location-dot"></i> Voir sur Google Maps
+          </a>
+          <a href="tel:+212634047344" class="btn btn--outline-dark">
+            <i class="fa-solid fa-phone"></i> +212 634 047 344
+          </a>
+          <a href="#" id="locationWhatsapp" class="btn btn--gold" target="_blank" rel="noopener">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="location__map">
+        <!-- No API key used: simple embedded map -->
+        <iframe
+          title="Localisation Satellite Gold Car - Mohammedia"
+          src="https://maps.google.com/maps?q=Mohammedia%20Hay%20Al%20Wafa&t=&z=14&ie=UTF8&iwloc=&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       8. CONTACT / RESERVATION CTA
+  ========================================================= -->
+  <section class="cta" id="contact">
+    <div class="container cta__inner">
+      <h2 class="cta__title">Prêt à prendre la route ?</h2>
+      <p class="cta__text">Réservez votre véhicule simplement et rapidement.</p>
+      <div class="cta__actions">
+        <a href="#" id="ctaWhatsapp" class="btn btn--gold btn--lg" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i> Réserver sur WhatsApp
+        </a>
+        <a href="tel:+212634047344" class="btn btn--outline btn--lg cnt">
+          <i class="fa-solid fa-phone"></i> Nous appeler
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- =========================================================
+     9. FOOTER
+========================================================= -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <span class="navbar__brand-mark navbar__brand-mark--footer">SGC</span>
+      <div>
+        <strong>Satellite Gold Car</strong>
+        <p>Location de voitures à Mohammedia</p>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>Navigation</h4>
+      <a href="#accueil">Accueil</a>
+      <a href="#voitures">Nos voitures</a>
+      <a href="#pourquoi">Pourquoi nous</a>
+      <a href="#localisation">Localisation</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <a href="tel:+212634047344"><i class="fa-solid fa-phone"></i> +212 634 047 344</a>
+      <a href="#" id="footerWhatsapp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+      <span><i class="fa-solid fa-location-dot"></i> Hay Al Wafa, Mohammedia, Maroc</span>
+    </div>
+
+    <div class="footer__col">
+      <h4>Suivez-nous</h4>
+      <a href="https://www.instagram.com/auto_abderrezak/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      <a href="https://www.tiktok.com/@abdobennajari" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 Satellite Gold Car — Tous droits réservés.</p>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp button -->
+<a href="#" id="floatingWhatsapp" class="floating-whatsapp" target="_blank" rel="noopener" aria-label="Réserver sur WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- =========================================================
+     VEHICLE DETAILS MODAL
+========================================================= -->
+<div class="modal" id="carModal" role="dialog" aria-modal="true" aria-labelledby="modalCarName" hidden>
+  <div class="modal__overlay" id="modalOverlay"></div>
+  <div class="modal__box">
+    <button class="modal__close" id="modalClose" aria-label="Fermer">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <div class="modal__media">
+      <img src="" alt="" id="modalImg">
+      <span class="badge modal__badge" id="modalBadge">Disponible</span>
+    </div>
+
+    <div class="modal__content">
+      <p class="modal__category" id="modalCategory">Citadine</p>
+      <h3 id="modalCarName">Nom du véhicule</h3>
+      <p class="modal__desc" id="modalDesc">Description</p>
+
+      <ul class="modal__specs">
+        <li><i class="fa-solid fa-user-group"></i> <span id="modalSeats">5 places</span></li>
+        <li><i class="fa-solid fa-gears"></i> <span id="modalTransmission">Manuelle</span></li>
+        <li><i class="fa-solid fa-gas-pump"></i> <span id="modalFuel">Essence</span></li>
+      </ul>
+
+      <div class="modal__price">
+        <span>À partir de</span>
+        <strong id="modalPrice">250 MAD</strong>
+        <span id="modalPriceUnit">/ jour</span>
+      </div>
+
+      <a href="#" id="modalWhatsapp" class="btn btn--gold btn--lg btn--block" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> Réserver sur WhatsApp
+      </a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
