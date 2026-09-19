@@ -25,96 +25,109 @@ const company = {
    - "available" controls the badge shown on the card
 ========================================================= */
 const cars = [
-  {
-    id: "dacia-sandero",
-    name: "Dacia Sandero",
-    category: "Citadine",
-    description: "Une voiture économique et pratique, idéale pour les déplacements quotidiens.",
-    price: 250,
-    priceUnit: "jour",
-    seats: 5,
-    transmission: "Manuelle",
-    fuel: "Essence",
-    image: "images/cars/dacia-sandero.jpg",
-    available: true
-  },
-  {
-    id: "renault-clio",
-    name: "Renault Clio",
-    category: "Citadine",
-    description: "Confortable, moderne et agréable à conduire en ville comme sur route.",
-    price: 280,
-    priceUnit: "jour",
-    seats: 5,
-    transmission: "Manuelle",
-    fuel: "Diesel",
-    image: "images/cars/renault-clio.jpg",
-    available: true
-  },
-  {
-    id: "peugeot-208",
+   {
+    id: "peugeot-208-2",
     name: "Peugeot 208",
     category: "Citadine",
-    description: "Une citadine moderne offrant confort, style et faible consommation.",
-    price: 300,
+    description: "Une citadine moderne au style affirmé, confortable et économique au quotidien.",
+    price: 250,              // TODO: prix en MAD / jour
     priceUnit: "jour",
     seats: 5,
-    transmission: "Manuelle",
-    fuel: "Essence",
-    image: "images/cars/peugeot-208.jpg",
-    available: true
+    transmission: "Manuelle",  // Manuelle ou Automatique
+    fuel: "Essence",          // Essence ou Diesel
+    image: "images/cars/car1.jpg",
+    available: true        // TODO: confirmer oui/non
   },
   {
-    id: "seat-ibiza",
-    name: "Seat Ibiza",
-    category: "Citadine",
-    description: "Compacte, dynamique et parfaite pour les déplacements urbains.",
-    price: 280,
-    priceUnit: "jour",
-    seats: 5,
-    transmission: "Manuelle",
-    fuel: "Diesel",
-    image: "images/cars/seat-ibiza.jpg",
-    available: true
-  },
-  {
-    id: "dacia-logan",
-    name: "Dacia Logan",
-    category: "Berline",
-    description: "Spacieuse et économique, idéale pour les familles et les longs trajets.",
-    price: 270,
-    priceUnit: "jour",
-    seats: 5,
-    transmission: "Manuelle",
-    fuel: "Diesel",
-    image: "images/cars/dacia-logan.jpg",
-    available: true
-  },
-  {
-    id: "dacia-duster",
-    name: "Dacia Duster",
+    id: "vw-suv-1",
+    name: "Touareg",   // TODO: Touareg ou Tiguan ?
     category: "SUV",
-    description: "Un SUV confortable avec plus d'espace pour vos voyages et déplacements.",
-    price: 400,
+    description: "Un SUV élégant et robuste, idéal pour les longs trajets et les familles.",
+    price: 300,                  // TODO: prix en MAD / jour
     priceUnit: "jour",
     seats: 5,
-    transmission: "Manuelle",
-    fuel: "Diesel",
-    image: "images/cars/dacia-duster.jpg",
-    available: true
+    transmission: "Manuelle",      // Manuelle ou Automatique
+    fuel: "Essence",              // Essence ou Diesel
+    image: "images/cars/car2.jpg",
+    available: true            // TODO: confirmer oui/non
   },
   {
-    id: "hyundai-accent",
+    id: "opel-corsa",
+    name: "Opel Corsa",
+    category: "Citadine",
+    description: "Une citadine dynamique et bien équipée, agréable à conduire en ville.",
+    price: 250,              // TODO: prix en MAD / jour
+    priceUnit: "jour",
+    seats: 5,
+    transmission: "Manuelle",  // Manuelle ou Automatique
+    fuel: "Essence",          // Essence ou Diesel
+    image: "images/cars/car3.jpg",
+    available: true        // TODO: confirmer oui/non
+  },
+  {
+    id: "hyundai-accent-2",
     name: "Hyundai Accent",
     category: "Berline",
     description: "Une berline confortable et fiable pour vos déplacements quotidiens.",
-    price: 300,
+    price: 300,              // TODO: prix en MAD / jour
     priceUnit: "jour",
     seats: 5,
-    transmission: "Automatique",
-    fuel: "Essence",
-    image: "images/cars/hyundai-accent.jpg",
-    available: true
+    transmission: "Manuelle",  // Manuelle ou Automatique
+    fuel: "Essence",          // Essence ou Diesel
+    image: "images/cars/car4.jpg",
+    available: true        // TODO: confirmer oui/non
+  },
+  {
+    id: "opel-corsa-2",
+    name: "Opel Corsa",
+    category: "Citadine",
+    description: "Une citadine dynamique et bien équipée, agréable à conduire en ville.",
+    price: 300,              // TODO: prix en MAD / jour
+    priceUnit: "jour",
+    seats: 5,
+    transmission: "Manuelle",  // Manuelle ou Automatique
+    fuel: "Essence",          // Essence ou Diesel
+    image: "images/cars/car5.jpg",
+    available: true        // TODO: confirmer oui/non
+  },
+  {
+    id: "renault-clio-2",
+    name: "Renault Clio",
+    category: "Citadine",
+    description: "Confortable, moderne et agréable à conduire en ville comme sur route.",
+    price: 300,              // TODO: prix en MAD / jour
+    priceUnit: "jour",
+    seats: 5,
+    transmission: "Manuelle",  // Manuelle ou Automatique
+    fuel: "Essence",          // Essence ou Diesel
+    image: "images/cars/car7.jpg",
+    available: true        // TODO: confirmer oui/non
+  },
+  {
+    id: "car8",
+    name: "Dacia Duster",
+    category: "SUV",
+    description: "Un SUV confortable avec plus d'espace pour vos voyages et déplacements.",
+    price: 300,              // TODO: prix en MAD / jour
+    priceUnit: "jour",
+    seats: 5,
+    transmission: "Manuelle",  // Manuelle ou Automatique
+    fuel: "Essence",          // Essence ou Diesel
+    image: "images/cars/car8.jpg",
+    available: true        // TODO: confirmer oui/non
+  },
+  {
+    id: "vw-golf",
+    name: "Volkswagen Golf",
+    category: "Citadine",
+    description: "Une compacte allemande soignée, confortable et agréable à conduire au quotidien.",
+    price: 300,              // TODO: prix en MAD / jour
+    priceUnit: "jour",
+    seats: 5,
+    transmission: "Manuelle",  // Manuelle ou Automatique
+    fuel: "Essence",          // Essence ou Diesel
+    image: "images/cars/car9.jpg",
+    available: true        // TODO: confirmer oui/non
   }
 ];
 
@@ -219,6 +232,14 @@ function renderCars(category = "Tous"){
       if (car) openCarModal(car);
     });
   });
+}
+
+// Updates the hero "X véhicules disponibles" counter from the cars array
+function renderCarsCount(){
+  const countEl = document.getElementById("carsCount");
+  if (!countEl) return;
+  const availableCount = cars.filter(c => c.available).length;
+  countEl.textContent = availableCount;
 }
 
 /* =========================================================
@@ -384,6 +405,7 @@ function init(){
   applyCompanyInfo();
   renderFilters("Tous");
   renderCars("Tous");
+  renderCarsCount();   
   handleNavbarScroll();
   handleActiveSection();
 }
