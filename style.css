@@ -931,10 +931,38 @@ p{ margin: 0; }
   .modal__box{ grid-template-columns: 1fr; }
   .modal__media{ min-height: 200px; }
   .footer__inner{ grid-template-columns: 1fr 1fr; }
+  .btn--sm {
+    padding: 6px 8px;
+    font-size: 0.76rem;
+  }
+
+  .navbar__brand-mark {
+    width: 35px;
+    height: 34px;
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+
+  .navbar__brand-text strong {
+    font-size: 0.80rem;
+  }
+
+  .navbar__brand-text em {
+    font-size: 0.64rem;
+    letter-spacing: 0.5px;
+  }
+
+  .navbar__brand {
+    gap: 4px;
+  }
+
+  .navbar__actions { 
+    gap: 10px;
+  }
 }
 
 @media (max-width: 480px){
-  .container{ padding: 0 20px; }
+  .container{ padding: 0 8px; }
   .hero{ padding: 64px 0 80px; }
   .hero__actions{ flex-direction: column; }
   .hero__actions .btn{ width: 100%; }
