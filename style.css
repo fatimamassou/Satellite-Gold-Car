@@ -945,7 +945,7 @@ p{ margin: 0; }
   }
 
   .navbar__actions {
-    gap: 7px;
+    gap: 5px;
   }
 
   .navbar__burger {
