@@ -931,33 +931,26 @@ p{ margin: 0; }
   .modal__box{ grid-template-columns: 1fr; }
   .modal__media{ min-height: 200px; }
   .footer__inner{ grid-template-columns: 1fr 1fr; }
-  .btn--sm {
-    padding: 6px 8px;
-    font-size: 0.76rem;
-  }
-
-  .navbar__brand-mark {
-    width: 35px;
-    height: 34px;
-    font-weight: 600;
-    font-size: 0.85rem;
-  }
 
   .navbar__brand-text strong {
-    font-size: 0.80rem;
+    font-size: 0.68rem;
   }
 
   .navbar__brand-text em {
-    font-size: 0.64rem;
-    letter-spacing: 0.5px;
+    font-size: 0.68rem;
   }
 
   .navbar__brand {
-    gap: 4px;
+    gap: 6px;
   }
 
-  .navbar__actions { 
-    gap: 10px;
+  .navbar__actions {
+    gap: 7px;
+  }
+
+  .navbar__burger {
+    gap: 6px;
+    margin-left: -8px;
   }
 }
 
