@@ -40,7 +40,7 @@ const cars = [
   },
   {
     id: "vw-suv-1",
-    name: "Touareg",   // TODO: Touareg ou Tiguan ?
+    name: "Renault Austral",   // TODO: Touareg ou Tiguan ?
     category: "SUV",
     description: "Un SUV élégant et robuste, idéal pour les longs trajets et les familles.",
     price: "Prix sur demande",                  // TODO: prix en MAD / jour
@@ -105,7 +105,7 @@ const cars = [
   },
   {
     id: "car8",
-    name: "Dacia Duster",
+    name: "Dacia Logan",
     category: "SUV",
     description: "Un SUV confortable avec plus d'espace pour vos voyages et déplacements.",
     price: "Prix sur demande",              // TODO: prix en MAD / jour
@@ -118,7 +118,7 @@ const cars = [
   },
   {
     id: "vw-golf",
-    name: "Volkswagen Golf",
+    name: "T-roc",
     category: "Citadine",
     description: "Une compacte allemande soignée, confortable et agréable à conduire au quotidien.",
     price: "Prix sur demande",              // TODO: prix en MAD / jour
@@ -131,7 +131,7 @@ const cars = [
   },
   {
     id: "car19",
-    name: "Volkswagen Golf",
+    name: "seat ibiza",
     category: "Citadine",
     description: "Une compacte allemande soignée, confortable et agréable à conduire au quotidien.",
     price: "Prix sur demande",              // TODO: prix en MAD / jour
