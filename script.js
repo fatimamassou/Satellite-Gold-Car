@@ -8,9 +8,9 @@
 ========================================================= */
 const company = {
   name: "Satellite Gold Car",
-  phone: "0633044534",          // used for tel: links
-  displayPhone: "+212 633 044 534", // used for visible text
-  whatsapp: "212633044534",         // used for wa.me links (no + or spaces)
+  phone: "0688882044",          // used for tel: links
+  displayPhone: "+212 688 882 044", // used for visible text
+  whatsapp: "212666895096",         // used for wa.me links (no + or spaces)
   instagram: "https://www.instagram.com/auto_abderrezak/",
   tiktok: "https://www.tiktok.com/@abdobennajari",
   maps: "https://maps.app.goo.gl/pDUPNMShXNpDhmyU9?g_st=ic",
