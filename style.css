@@ -945,12 +945,21 @@ p{ margin: 0; }
   }
 
   .navbar__actions {
-    gap: 5px;
+    gap: 14px;
   }
 
   .navbar__burger {
     gap: 6px;
     margin-left: -8px;
+  }
+
+  .btn--sm {
+    padding: 3px 10px;
+    font-size: 0.76rem;
+  }
+
+  .navbar__burger {
+    gap: 6px;
   }
 }
 
