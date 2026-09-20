@@ -30,12 +30,12 @@ const cars = [
     name: "Peugeot 208",
     category: "Citadine",
     description: "Une citadine moderne au style affirmé, confortable et économique au quotidien.",
-    price: 250,              // TODO: prix en MAD / jour
+    price: "Prix sur demande",              // TODO: prix en MAD / jour
     priceUnit: "jour",
     seats: 5,
-    transmission: "Manuelle",  // Manuelle ou Automatique
-    fuel: "Essence",          // Essence ou Diesel
-    image: "images/cars/car1.jpg",
+    transmission: "Automatique",  // Manuelle ou Automatique
+    fuel: "Diesel",          // Essence ou Diesel
+    image: "images/cars/car11.jpeg",
     available: true        // TODO: confirmer oui/non
   },
   {
@@ -43,12 +43,12 @@ const cars = [
     name: "Touareg",   // TODO: Touareg ou Tiguan ?
     category: "SUV",
     description: "Un SUV élégant et robuste, idéal pour les longs trajets et les familles.",
-    price: 300,                  // TODO: prix en MAD / jour
+    price: "Prix sur demande",                  // TODO: prix en MAD / jour
     priceUnit: "jour",
     seats: 5,
-    transmission: "Manuelle",      // Manuelle ou Automatique
-    fuel: "Essence",              // Essence ou Diesel
-    image: "images/cars/car2.jpg",
+    transmission: "Automatique",      // Manuelle ou Automatique
+    fuel: "Diesel",              // Essence ou Diesel
+    image: "images/cars/car12.jpeg",
     available: true            // TODO: confirmer oui/non
   },
   {
@@ -56,12 +56,12 @@ const cars = [
     name: "Opel Corsa",
     category: "Citadine",
     description: "Une citadine dynamique et bien équipée, agréable à conduire en ville.",
-    price: 250,              // TODO: prix en MAD / jour
+    price: "Prix sur demande",              // TODO: prix en MAD / jour
     priceUnit: "jour",
     seats: 5,
-    transmission: "Manuelle",  // Manuelle ou Automatique
-    fuel: "Essence",          // Essence ou Diesel
-    image: "images/cars/car3.jpg",
+    transmission: "Automatique",  // Manuelle ou Automatique
+    fuel: "Diesel",          // Essence ou Diesel
+    image: "images/cars/car13.jpeg",
     available: true        // TODO: confirmer oui/non
   },
   {
@@ -69,25 +69,25 @@ const cars = [
     name: "Hyundai Accent",
     category: "Berline",
     description: "Une berline confortable et fiable pour vos déplacements quotidiens.",
-    price: 300,              // TODO: prix en MAD / jour
+    price: "Prix sur demande",              // TODO: prix en MAD / jour
     priceUnit: "jour",
     seats: 5,
-    transmission: "Manuelle",  // Manuelle ou Automatique
-    fuel: "Essence",          // Essence ou Diesel
-    image: "images/cars/car4.jpg",
+    transmission: "Automatique",  // Manuelle ou Automatique
+    fuel: "Diesel",          // Essence ou Diesel
+    image: "images/cars/car14.jpeg",
     available: true        // TODO: confirmer oui/non
   },
   {
     id: "opel-corsa-2",
-    name: "Opel Corsa",
-    category: "Citadine",
-    description: "Une citadine dynamique et bien équipée, agréable à conduire en ville.",
-    price: 300,              // TODO: prix en MAD / jour
+    name: "Hyundai Accent",
+    category: "Berline",
+    description: "Une berline dynamique et bien équipée, agréable à conduire en ville.",
+    price: "Prix sur demande",              // TODO: prix en MAD / jour
     priceUnit: "jour",
     seats: 5,
-    transmission: "Manuelle",  // Manuelle ou Automatique
-    fuel: "Essence",          // Essence ou Diesel
-    image: "images/cars/car5.jpg",
+    transmission: "Automatique",  // Manuelle ou Automatique
+    fuel: "Diesel",          // Essence ou Diesel
+    image: "images/cars/car15.jpeg",
     available: true        // TODO: confirmer oui/non
   },
   {
@@ -95,12 +95,12 @@ const cars = [
     name: "Renault Clio",
     category: "Citadine",
     description: "Confortable, moderne et agréable à conduire en ville comme sur route.",
-    price: 300,              // TODO: prix en MAD / jour
+    price: "Prix sur demande",              // TODO: prix en MAD / jour
     priceUnit: "jour",
     seats: 5,
-    transmission: "Manuelle",  // Manuelle ou Automatique
-    fuel: "Essence",          // Essence ou Diesel
-    image: "images/cars/car7.jpg",
+    transmission: "Automatique",  // Manuelle ou Automatique
+    fuel: "Diesel",          // Essence ou Diesel
+    image: "images/cars/car16.jpeg",
     available: true        // TODO: confirmer oui/non
   },
   {
@@ -108,12 +108,12 @@ const cars = [
     name: "Dacia Duster",
     category: "SUV",
     description: "Un SUV confortable avec plus d'espace pour vos voyages et déplacements.",
-    price: 300,              // TODO: prix en MAD / jour
+    price: "Prix sur demande",              // TODO: prix en MAD / jour
     priceUnit: "jour",
     seats: 5,
-    transmission: "Manuelle",  // Manuelle ou Automatique
-    fuel: "Essence",          // Essence ou Diesel
-    image: "images/cars/car8.jpg",
+    transmission: "Automatique",  // Manuelle ou Automatique
+    fuel: "Diesel",          // Essence ou Diesel
+    image: "images/cars/car17.jpeg",
     available: true        // TODO: confirmer oui/non
   },
   {
@@ -121,12 +121,25 @@ const cars = [
     name: "Volkswagen Golf",
     category: "Citadine",
     description: "Une compacte allemande soignée, confortable et agréable à conduire au quotidien.",
-    price: 300,              // TODO: prix en MAD / jour
+    price: "Prix sur demande",              // TODO: prix en MAD / jour
     priceUnit: "jour",
     seats: 5,
-    transmission: "Manuelle",  // Manuelle ou Automatique
-    fuel: "Essence",          // Essence ou Diesel
-    image: "images/cars/car9.jpg",
+    transmission: "Automatique",  // Manuelle ou Automatique
+    fuel: "Diesel",          // Essence ou Diesel
+    image: "images/cars/car18.jpeg",
+    available: true        // TODO: confirmer oui/non
+  },
+  {
+    id: "car19",
+    name: "Volkswagen Golf",
+    category: "Citadine",
+    description: "Une compacte allemande soignée, confortable et agréable à conduire au quotidien.",
+    price: "Prix sur demande",              // TODO: prix en MAD / jour
+    priceUnit: "jour",
+    seats: 5,
+    transmission: "Automatique",  // Manuelle ou Automatique
+    fuel: "Diesel",          // Essence ou Diesel
+    image: "images/cars/car19.jpeg",
     available: true        // TODO: confirmer oui/non
   }
 ];
@@ -211,7 +224,7 @@ function carCardTemplate(car){
           <li><i class="fa-solid fa-gears"></i> ${car.transmission}</li>
           <li><i class="fa-solid fa-gas-pump"></i> ${car.fuel}</li>
         </ul>
-        <p class="car-card__price"><strong>${car.price} MAD</strong> à partir de / ${car.priceUnit}</p>
+        <p class="car-card__price"><strong>${car.price}</strong> à partir de / ${car.priceUnit}</p>
         <div class="car-card__actions">
           <button class="btn btn--outline" type="button" data-details="${car.id}">Voir les détails</button>
           <a class="btn btn--gold" href="${buildWhatsappUrl(carWhatsappMessage(car.name))}" target="_blank" rel="noopener">Réserver</a>
@@ -295,7 +308,7 @@ function openCarModal(car){
   modalSeats.textContent = `${car.seats} places`;
   modalTransmission.textContent = car.transmission;
   modalFuel.textContent = car.fuel;
-  modalPrice.textContent = `${car.price} MAD`;
+  modalPrice.textContent = `${car.price}`;
   modalPriceUnit.textContent = `/ ${car.priceUnit}`;
   modalWhatsapp.href = buildWhatsappUrl(carWhatsappMessage(car.name));
 
