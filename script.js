@@ -14,7 +14,7 @@ const company = {
   instagram: "https://www.instagram.com/auto_abderrezak/",
   tiktok: "https://www.tiktok.com/@abdobennajari",
   maps: "https://maps.app.goo.gl/pDUPNMShXNpDhmyU9?g_st=ic",
-  address: "Hay Al Wafa 155, IMM Oumkaltouma Nº2 EL, Mohammedia 28810"
+  address: "Hay Al Wafa 155, IMM Oumkaltouma Nº2 EL, Mohammedia 28810, Maroc"
 };
 
 /* =========================================================
@@ -36,7 +36,8 @@ const cars = [
     transmission: "Automatique",  // Manuelle ou Automatique
     fuel: "Diesel",          // Essence ou Diesel
     image: "images/cars/car11.jpeg",
-    available: true        // TODO: confirmer oui/non
+    available: true     ,   // TODO: confirmer oui/non
+    alt: "Peugeot 208 - automatique à louer à Mohammedia,casablanca,maroc Vue de face, garée sur une route urbaine"
   },
   {
     id: "vw-suv-1",
@@ -49,7 +50,8 @@ const cars = [
     transmission: "Automatique",      // Manuelle ou Automatique
     fuel: "Diesel",              // Essence ou Diesel
     image: "images/cars/car12.jpeg",
-    available: true            // TODO: confirmer oui/non
+    available: true   ,         // TODO: confirmer oui/non
+    alt: "Renault Austral - automatique à louer à Mohammedia,casablanca,maroc Vue de face, garée sur une route urbaine"
   },
   {
     id: "opel-corsa",
@@ -62,7 +64,8 @@ const cars = [
     transmission: "Automatique",  // Manuelle ou Automatique
     fuel: "Diesel",          // Essence ou Diesel
     image: "images/cars/car13.jpeg",
-    available: true        // TODO: confirmer oui/non
+    available: true     ,   // TODO: confirmer oui/non
+    alt: "Opel Corsa - automatique à louer à Mohammedia,casablanca,maroc Vue de face, garée sur une route urbaine"
   },
   {
     id: "hyundai-accent-2",
@@ -75,7 +78,8 @@ const cars = [
     transmission: "Automatique",  // Manuelle ou Automatique
     fuel: "Diesel",          // Essence ou Diesel
     image: "images/cars/car14.jpeg",
-    available: true        // TODO: confirmer oui/non
+    available: true     ,   // TODO: confirmer oui/non
+    alt: "Hyundai Accent - automatique à louer à Mohammedia,casablanca,maroc Vue de face, garée sur une route urbaine"
   },
   {
     id: "opel-corsa-2",
@@ -88,7 +92,8 @@ const cars = [
     transmission: "Automatique",  // Manuelle ou Automatique
     fuel: "Diesel",          // Essence ou Diesel
     image: "images/cars/car15.jpeg",
-    available: true        // TODO: confirmer oui/non
+    available: true     ,   // TODO: confirmer oui/non
+    alt: "Hyundai Accent - automatique à louer à Mohammedia,casablanca,maroc Vue de face, garée sur une route urbaine"
   },
   {
     id: "renault-clio-2",
@@ -101,7 +106,8 @@ const cars = [
     transmission: "Automatique",  // Manuelle ou Automatique
     fuel: "Diesel",          // Essence ou Diesel
     image: "images/cars/car16.jpeg",
-    available: true        // TODO: confirmer oui/non
+    available: true     ,   // TODO: confirmer oui/non
+    alt: "Renault Clio - automatique à louer à Mohammedia,casablanca,maroc Vue de face, garée sur une route urbaine"
   },
   {
     id: "car8",
@@ -114,7 +120,8 @@ const cars = [
     transmission: "Automatique",  // Manuelle ou Automatique
     fuel: "Diesel",          // Essence ou Diesel
     image: "images/cars/car17.jpeg",
-    available: true        // TODO: confirmer oui/non
+    available: true     ,   // TODO: confirmer oui/non
+    alt: "Dacia Logan - automatique à louer à Mohammedia,casablanca,maroc Vue de face, garée sur une route urbaine"
   },
   {
     id: "vw-golf",
@@ -127,7 +134,8 @@ const cars = [
     transmission: "Automatique",  // Manuelle ou Automatique
     fuel: "Diesel",          // Essence ou Diesel
     image: "images/cars/car18.jpeg",
-    available: true        // TODO: confirmer oui/non
+    available: true    ,    // TODO: confirmer oui/non
+    alt: "T-roc - automatique à louer à Mohammedia,casablanca,maroc Vue de face, garée sur une route urbaine"
   },
   {
     id: "car19",
@@ -140,7 +148,8 @@ const cars = [
     transmission: "Automatique",  // Manuelle ou Automatique
     fuel: "Diesel",          // Essence ou Diesel
     image: "images/cars/car19.jpeg",
-    available: true        // TODO: confirmer oui/non
+    available: true    ,    // TODO: confirmer oui/non
+    alt: "seat ibiza - automatique à louer à Mohammedia,casablanca,maroc Vue de face, garée sur une route urbaine"
   }
 ];
 
@@ -212,7 +221,7 @@ function carCardTemplate(car){
     <article class="car-card" data-id="${car.id}">
       <div class="car-card__media">
         ${availabilityBadge}
-        <img src="${car.image}" alt="${car.name}" loading="lazy"
+        <img src="${car.image}" alt="${car.alt}" loading="lazy"
              onerror="handleImageError(this)">
       </div>
       <div class="car-card__body">
