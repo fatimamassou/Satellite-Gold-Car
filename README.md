@@ -43,8 +43,8 @@ Open **`script.js`**, section `1. COMPANY CONFIGURATION` (the `company` object a
 ```js
 const company = {
   name: "Satellite Gold Car",
-  phone: "+212634047344",
-  displayPhone: "+212 634 047 344",
+  phone: "+212688882044",
+  displayPhone: "+212 688 882 044",
   whatsapp: "212634047344",
   instagram: "https://www.instagram.com/auto_abderrezak/",
   tiktok: "https://www.tiktok.com/@abdobennajari",
