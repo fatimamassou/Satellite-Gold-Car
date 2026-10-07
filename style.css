@@ -740,6 +740,27 @@ p{ margin: 0; }
   font-size: 0.82rem;
 }
 
+.footer__creator {
+  margin-left: 10px;
+  opacity: 0.8;
+}
+
+.footer__creator::before {
+  content: "•";
+  margin-right: 10px;
+}
+
+.footer__creator a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.footer__creator a:hover {
+  opacity: 0.7;
+}
+
 /* =========================================================
    FLOATING WHATSAPP BUTTON
 ========================================================= */
