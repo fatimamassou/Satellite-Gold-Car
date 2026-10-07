@@ -751,14 +751,13 @@ p{ margin: 0; }
 }
 
 .footer__creator a {
-  color: inherit;
+  color: var(--c-gold-light);
   text-decoration: none;
   font-weight: 600;
-  transition: opacity 0.3s ease;
 }
 
 .footer__creator a:hover {
-  opacity: 0.7;
+  color: var(--c-gold);
 }
 
 /* =========================================================
