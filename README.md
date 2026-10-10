@@ -8,6 +8,7 @@ Open **`script.js`** and find the `cars` array near the top (section `2. VEHICLE
 
 Each vehicle is one object:
 
+
 ```js
 {
   id: "dacia-sandero",        // unique, no spaces (used internally)
